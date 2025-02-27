@@ -1,50 +1,7 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+Signup : ![Screenshot 2025-02-27 102742](https://github.com/user-attachments/assets/5c0f9350-c51c-4263-b5e9-a559f0c3c187)
+signin : ![Screenshot 2025-02-27 102750](https://github.com/user-attachments/assets/635c11ca-0677-4e25-b490-36a14e5d6811)
+profile : ![Screenshot 2025-02-27 102822](https://github.com/user-attachments/assets/470076ee-ecc2-4098-b286-d48b7c9ada9e)
+edit profile : ![Screenshot 2025-02-27 102831](https://github.com/user-attachments/assets/88564888-065a-4919-b1ba-34820a65c872)
+dashboard : ![Screenshot 2025-02-27 102842](https://github.com/user-attachments/assets/c9697227-a3a8-4d09-af59-e31033dc5a9c)
+user details : ![Screenshot 2025-02-27 102915](https://github.com/user-attachments/assets/2040796c-c009-4734-92f7-b6172672a807)
+add user : ![Screenshot 2025-02-27 102851](https://github.com/user-attachments/assets/27fb85c7-4a85-4852-b3a6-631739b8b6ee)
